@@ -2,7 +2,7 @@
 # classes.py by Bill Weinman [http://bw.org/]
 # This is an exercise file from Python 3 Essential Training on lynda.com
 # Copyright 2010 The BearHeart Group, LLC
-#unit 12 ex. 7
+#unit 12 ex. 7 - creating a range generator that includes the stop number as well 
 
 class inclusive_range:
 	def __init__(self, *args):
