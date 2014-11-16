@@ -38,3 +38,8 @@ def main():
    		print i, 
 
 if __name__ == "__main__": main()
+
+#in the original exercise, the instructor had (print i, end=' ') which gave me an error ('invalid syntax')
+#after some Googling, I found out that's the way you insert an empty space on Python 3, but it's not supported in earlier versions
+#(which is what I have). The way to insert a space is just adding a comma after i.
+#http://stackoverflow.com/questions/15018875/end-python-syntax-error
